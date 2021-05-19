@@ -1,0 +1,27 @@
+[
+    {
+        "caption": "<span style=\"font-size:14px;font-family:宋体;\">下面说法正确的是（<\/span> <span style=\"font-size:14px;font-family:宋体;\">　）<\/span>",
+        "answer": "<spanstyle=\"font-size:14px;font-family:宋体;\">本课程中常说的“地”是指各部分连在一起形成的统一的0电位参考平面<\/span>,<spanstyle=\"font-size:14px;font-family:宋体;\">面包板上电路走线应尽量贴板，横平竖直，直角绕开大器件<\/span>,",
+        "analysis": ""
+    },
+    {
+        "caption": "<span style=\"font-size:14px;font-family:宋体;\">面包板插板用信号连接线金属裸露的剥头长应为6~8mm。<\/span>",
+        "answer": "correct",
+        "analysis": ""
+    },
+    {
+        "caption": "<span style=\"font-size:14px;font-family:宋体;\">视频中的<\/span><span style=\"font-size: 14px;font-family:'Calibri','sans-serif';\">3<\/span><span style=\"font-size:14px;font-family:宋体;\">位半手持式万用表测量一可调电阻当前阻值，档位开关在欧姆区的<\/span><span style=\"font-size:14px;font-family:'Calibri','sans-serif';\">2k<\/span><span style=\"font-size:14px;font-family:宋体;\">档，显示为<\/span><span style=\"font-size:14px;font-family:'Calibri','sans-serif';\"> .392<\/span><span style=\"font-size:14px;font-family:宋体;\">，说明当前阻值是<\/span>",
+        "answer": "<spanstyle=\"font-family:宋体;\">392<\/span><spanstyle=\"font-family:宋体;\">欧姆<\/span>",
+        "analysis": ""
+    },
+    {
+        "caption": "<span style=\"font-size:14px;font-family:宋体;\">视频中的<\/span><span style=\"font-size:14px;font-family:宋体;\">稳压电源在实验中，主从独立模式下打开<\/span><span style=\"font-size:14px;font-family:'Calibri','sans-serif';\">Power<\/span><span style=\"font-size:14px;font-family:宋体;\">键后，不管如何调整主路的电压旋钮，主路输出电压始终为<\/span><span style=\"font-size:14px;font-family:'Calibri','sans-serif';\">0<\/span><span style=\"font-size:14px;font-family:宋体;\">，可能原因是<\/span>",
+        "answer": "<spanstyle=\"font-size:14px;font-family:宋体;\">OUTPUT<\/span><spanstyle=\"font-size:14px;font-family:宋体;\">开关没打开<\/span>,<spanstyle=\"font-size:14px;font-family:宋体;\">主路连接的外部电路有短路<\/span>,<spanstyle=\"font-family:宋体;\"><spanstyle=\"font-variant-numeric:normal;font-stretch:normal;font-size:9px;line-height:normal;font-family:'TimesNewRoman';\"><\/span><\/span><spanstyle=\"font-family:宋体;\">电源内部有其他故障<\/span>,",
+        "analysis": ""
+    },
+    {
+        "caption": "<span style=\"font-size:14px;font-family:宋体;\">数字万用表显示屏上出现<\/span><strong><span style=\"font-size:14px;font-family:宋体;\">H<\/span><\/strong><span style=\"font-size:14px;font-family:宋体;\">符号，并一直显示刚才的某个测量结果，无法正确显示新的测量情况，可以按一次Power键还原为正常使用状态。<\/span>",
+        "answer": "wrong",
+        "analysis": ""
+    }
+]

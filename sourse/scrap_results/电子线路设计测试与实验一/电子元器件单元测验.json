@@ -1,0 +1,87 @@
+[
+    {
+        "caption": "<span style=\"font-size:16px;font-family:宋体;\">某个电阻的色环序列为红黑红棕，其电阻值为<\/span>",
+        "answer": "<spanstyle=\"font-size:16px;font-family:宋体;\">2K±1%<\/span><spanstyle=\"font-size:16px;font-family:宋体;\">欧姆<\/span>",
+        "analysis": "<b>解析：<\/b>  A、四色环电阻，就是指用四条色环表示阻值的电阻，从左向右数，第一道色环表示阻值的最大一位数字；第二道色环表示阻值的第二位数字；第三道色环表示阻值倍乘的数；第四道色环表示阻值允许的偏差（精度）。<br\/>电阻的第一环为红色（代表2），第二环为黑色（代表0），第三环为红色（代表100倍），第四环为棕色（代表误差为±1%），那么这个电阻的阻值应该是20×100=2000Ω，阻值的误差范围为±1%。"
+    },
+    {
+        "caption": "<span style=\"font-size: 16px;font-family:宋体;\">三极管工作在放大状态时，两个<\/span><span style=\"font-size:16px;font-family:'Calibri',sans-serif;\">PN<\/span><span style=\"font-size:16px;font-family:宋体;\">结必须是<\/span>",
+        "answer": "<spanstyle=\"font-size:16px;font-family:宋体;\">集电结反偏，发射结正偏<\/span>",
+        "analysis": ""
+    },
+    {
+        "caption": "<span style=\"font-size:16px;font-family:宋体;\">如图所示为某运放的管脚封装定义，为保证使用该运放实现反相比例放大电路正常工作，应分别将正电源、负电源及输入信号连接至哪几个管脚<\/span><span style=\"font-size:16px;\">(<\/span><span style=\"font-size:16px;font-family:宋体;\">按正电源、负电源、输入信号顺序<\/span><span style=\"font-size:16px;\">)<\/span><span style=\"font-size:16px;font-family:宋体;\">？<\/span>",
+        "answer": "<spanstyle=\"font-size:16px;font-family:'Calibri',sans-serif;\">7<\/span><spanstyle=\"font-size:16px;font-family:宋体;\">脚，<\/span><spanstyle=\"font-size:16px;font-family:'Calibri',sans-serif;\">4<\/span><spanstyle=\"font-size:16px;font-family:宋体;\">脚和<\/span><spanstyle=\"font-size:16px;font-family:'Calibri',sans-serif;\">2<\/span><spanstyle=\"font-size:16px;font-family:宋体;\">脚<\/span>",
+        "analysis": "<b>解析：<\/b>  C、正电源引脚为7脚，负电源引脚为4脚，反向输入信号引脚为2脚。"
+    },
+    {
+        "caption": "<span style=\"font-size: 16px;font-family:宋体;\">下列哪项是电容在电路中的功能<\/span>",
+        "answer": "<spanstyle=\"font-size:16px;font-family:宋体;\">滤波<\/span>,<spanstyle=\"font-size:16px;font-family:宋体;\">旁路高频信号<\/span>,<spanstyle=\"font-size:16px;font-family:宋体;\">耦合交流<\/span>,",
+        "analysis": ""
+    },
+    {
+        "caption": "<span style=\"font-size:16px;font-family: 宋体;\">5<\/span><span style=\"font-size:16px;font-family:宋体;\">色环电阻的第4位色环表示误差值。<\/span>",
+        "answer": "wrong",
+        "analysis": ""
+    },
+    {
+        "caption": "<span style=\"font-size:16px;font-family:宋体;\">在使用集成运放构成的运算电路中，集成运放的反向输入端均为虚地。<\/span>",
+        "answer": "wrong",
+        "analysis": ""
+    },
+    {
+        "caption": "<span style=\"font-size:16px;font-family:宋体;\">470K±5%欧姆的五环电阻的色环序列为<\/span>",
+        "answer": "<spanstyle=\"font-size:16px;font-family:宋体;\">黄紫黑橙<\/span><spanstyle=\"font-size:16px;font-family:宋体;\">金<\/span>",
+        "analysis": "<b>解析：<\/b>  D、五色环电阻 就是指用五条色环表示阻值的电阻，从左向右数，如图所示。第一道色环表示阻值的最大一位数字；第二道色环表示阻值的第二位数字；第三道色环表示阻值的第三位数字；第四道色环表示阻值的倍乘数；第五道色环表示误差范围。<br\/>题中的五色环电阻，总阻值为470kΩ， 第一环数字应为4（黄色）、第二环数字应为7（紫色0）、第三环数字应为0（黑色），第四环数字应该为1K（橙色），第五环误差为±5%（金色），因此色环序列为黄紫黑橙金。"
+    },
+    {
+        "caption": "<span style=\"font-size:16px;font-family:宋体;\">示数为<\/span><span style=\"font-size: 16px;font-family:'Calibri',sans-serif;\">102<\/span><span style=\"font-size:16px;font-family:宋体;\">的瓷片电容的电容值为<\/span>",
+        "answer": "<spanstyle=\"font-size:16px;font-family:'Calibri',sans-serif;\"><spanstyle=\"font-size:16px;font-family:'Calibri',sans-serif;\">0.001<\/span>uF<spanstyle=\"font-size:16px;font-family:'Calibri',sans-serif;\"><\/span><\/span>",
+        "analysis": "<b>解析：<\/b>  A、瓷片电容读法：102 = 10×100 pF = 0.001 μF"
+    },
+    {
+        "caption": "<span style=\"font-size:16px;font-family:宋体;\">工作在反向击穿状态的二极管是<\/span>",
+        "answer": "<spanstyle=\"font-size:16px;font-family:宋体;\">稳压二极管<\/span>",
+        "analysis": ""
+    },
+    {
+        "caption": "<span style=\"font-size: 16px;font-family:宋体;\">下图是共阴极七段<\/span><span style=\"font-size:16px;font-family:'Calibri',sans-serif;\">LED<\/span><span style=\"font-size:16px;font-family:宋体;\">数码管显示译码器框图，若要显示字符“<\/span><span style=\"font-size:16px;font-family:'Calibri',sans-serif;\">5<\/span><span style=\"font-size:16px;font-family:宋体;\">”，则译码器的输出<\/span><span style=\"font-size:16px;font-family:'Calibri',sans-serif;\">a~g<\/span><span style=\"font-size: 16px;font-family:宋体;\">应为<\/span>",
+        "answer": "<spanstyle=\"font-size:16px;font-family:'Calibri',sans-serif;\">1011011<\/span>",
+        "analysis": ""
+    },
+    {
+        "caption": "<span style=\"font-size: 16px;font-family:宋体;\">下列哪项是电容在电路中的功能<\/span>",
+        "answer": "<spanstyle=\"font-size:16px;font-family:宋体;\">频率补偿<\/span>,<spanstyle=\"font-size:16px;font-family:宋体;\">旁路高频信号<\/span>,<spanstyle=\"font-size:16px;font-family:宋体;\">耦合交流<\/span>,",
+        "analysis": ""
+    },
+    {
+        "caption": "<span style=\"font-size:16px;font-family:宋体;\">硅二极管的开启电压为0.5V左右，锗二极管为0.1V左右。<\/span>",
+        "answer": "correct",
+        "analysis": ""
+    },
+    {
+        "caption": "<span style=\"font-size:14px;font-family:宋体;\">数字芯片不用的管脚就无需连接了。<\/span>",
+        "answer": "wrong",
+        "analysis": "<b>解析：<\/b>所有数字逻辑器件未用的输入端子应按照使该端子去能或不影响芯片逻辑的方式连接到高电平或低电平，以防止噪声干扰或静电击穿。"
+    },
+    {
+        "caption": "<span style=\"font-size:16px;font-family:宋体;\">470K±5%欧姆的五环电阻的色环序列为<\/span>",
+        "answer": "<spanstyle=\"font-size:16px;font-family:宋体;\">黄紫黑橙<\/span><spanstyle=\"font-size:16px;font-family:宋体;\">金<\/span>",
+        "analysis": "<b>解析：<\/b>  A、五色环电阻 就是指用五条色环表示阻值的电阻，从左向右数，如图所示。第一道色环表示阻值的最大一位数字；第二道色环表示阻值的第二位数字；第三道色环表示阻值的第三位数字；第四道色环表示阻值的倍乘数；第五道色环表示误差范围。<br\/>题中的五色环电阻，总阻值为470kΩ， 第一环数字应为4（黄色）、第二环数字应为7（紫色0）、第三环数字应为0（黑色），第四环数字应该为1K（橙色），第五环误差为±5%（金色），因此色环序列为黄紫黑橙金。"
+    },
+    {
+        "caption": "<span style=\"font-size:16px;font-family:宋体;\">如图所示为某运放的管脚封装定义，为保证使用该运放实现反相比例放大电路正常工作，应分别将正电源、负电源及输入信号连接至哪几个管脚<\/span><span style=\"font-size:16px;\">(<\/span><span style=\"font-size:16px;font-family:宋体;\">按正电源、负电源、输入信号顺序<\/span><span style=\"font-size:16px;\">)<\/span><span style=\"font-size:16px;font-family:宋体;\">？<\/span>",
+        "answer": "<spanstyle=\"font-size:16px;font-family:'Calibri',sans-serif;\">7<\/span><spanstyle=\"font-size:16px;font-family:宋体;\">脚，<\/span><spanstyle=\"font-size:16px;font-family:'Calibri',sans-serif;\">4<\/span><spanstyle=\"font-size:16px;font-family:宋体;\">脚和<\/span><spanstyle=\"font-size:16px;font-family:'Calibri',sans-serif;\">2<\/span><spanstyle=\"font-size:16px;font-family:宋体;\">脚<\/span>",
+        "analysis": "<b>解析：<\/b>  B、正电源引脚为7脚，负电源引脚为4脚，反向输入信号引脚为2脚。"
+    },
+    {
+        "caption": "<span style=\"font-size: 16px;font-family:宋体;\">下列哪项是电容在电路中的功能<\/span>",
+        "answer": "<spanstyle=\"font-size:16px;font-family:宋体;\">阻隔直流<\/span>,<spanstyle=\"font-size:16px;font-family:宋体;\">耦合交流<\/span>,<spanstyle=\"font-size:16px;font-family:宋体;\">旁路高频信号<\/span>,<spanstyle=\"font-size:16px;font-family:宋体;\">滤波<\/span>,",
+        "analysis": ""
+    },
+    {
+        "caption": "<span style=\"font-size:16px;font-family:宋体;\">普通二极管上有环状标示的一边为负极。<\/span>",
+        "answer": "correct",
+        "analysis": ""
+    }
+]

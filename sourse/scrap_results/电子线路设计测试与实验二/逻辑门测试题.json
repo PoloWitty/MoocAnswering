@@ -1,0 +1,37 @@
+[
+    {
+        "caption": "<span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\">在下图所示电路中，逻辑门</span><span style=\"font-size:14px;font-family:'Times New Roman','serif';\"></span></span><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:'Times New Roman','serif';\">GM</span>输出的高、低电平符合</span></span><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\">VOH <span style=\"font-family:'Calibri','sans-serif';\">≥ 3.2V</span></span></span><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-family:宋体;\">，</span>VOL <span style=\"font-family:'Calibri','sans-serif';\">≤ 0.25V</span><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\">。</span></span></span></span><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\">所有的反相器均为</span><span style=\"font-size:14px;font-family:'Times New Roman','serif';\">74LS</span><span style=\"font-size:14px;font-family:宋体;\">系列</span><span style=\"font-size:14px;font-family:'Times New Roman','serif';\">TTL</span><span style=\"font-size:14px;font-family:宋体;\">电路，</span></span></span></span><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\">输入电流</span></span></span></span><span style=\"font-size:14px;font-family: 'Times New Roman','serif';\">IIL  </span><span style=\"font-size:14px;font-family:'Calibri','sans-serif';\">≤  - 0.4mA</span><span style=\"font-size:14px;font-family:宋体;\">，</span><span style=\"font-size:14px;font-family:'Times New Roman','serif';\">IIH </span><span style=\"font-size:14px;font-family:'Calibri','sans-serif';\"> ≤  20</span><span style=\"font-size:14px;font-family:Gabriola;\">μ</span><span style=\"font-size:14px;font-family:'Calibri','sans-serif';\">A</span><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\">。</span></span></span></span><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\">VOL <span style=\"font-family:'Calibri','sans-serif';\">≤ 0.25V</span></span></span><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"> 时的输出电流的最大值</span></span></span></span><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\">为</span></span></span></span><span style=\"font-size:14px;font-family:'Times New Roman','serif';\">  IOL</span><span style=\"font-size:14px;font-family:宋体;\">（</span><span style=\"font-size:14px;font-family:'Times New Roman','serif';\">max</span><span style=\"font-size:14px;font-family:宋体;\">）</span><span style=\"font-size:14px;font-family:'Times New Roman','serif';\"> =  8mA</span><span style=\"font-size:14px;font-family:宋体;\">，</span><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\">VOH <span style=\"font-family:'Calibri','sans-serif';\">≥ 3.2V</span></span></span><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-family:宋体;\"> 时</span></span></span><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\">的输出电流的最大值为 </span></span></span></span><span style=\"font-size:14px;font-family:'Times New Roman','serif';\">IOH</span><span style=\"font-size:14px;font-family:宋体;\">（</span><span style=\"font-size:14px;font-family:'Times New Roman','serif';\">max</span><span style=\"font-size:14px;font-family:宋体;\">）</span><span style=\"font-size:14px;font-family:'Times New Roman','serif';\"> =  -0.4mA</span><span style=\"font-size: 14px;font-family:宋体;\">，</span><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:'Times New Roman','serif';\">GM</span></span></span><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\">的输出电阻可忽略不计</span></span></span></span><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\">。计算</span></span></span></span><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:宋体;\"><span style=\"font-size:14px;font-family:'Times New Roman','serif';\">GM</span></span></span>可驱动的反相器的个数为<img src=\"https://edu-image.nosdn.127.net/0D73ACE68479A22A06E0126E45FB676E.png?imageView&amp;thumbnail=520x520&amp;quality=100\"/></span></span></span></span>",
+        "answer": "20",
+        "analysis": "<b>解析：</b>  B、根据  IOL（max） =  8mA时VOL ≤ 0.25V的要求，n1  ≤ 8 / IIL  ≤ 8 / 0.4 = 20 ；<br/>根据 IOH（max） =  -0.4mA时VOH ≥ 3.2V的要求，n2  ≤ 0.4 / IIH  ≤ 0.4 / 0.02 = 20 ；<br/>所以n ≤ 20"
+    },
+    {
+        "caption": "74LS系列逻辑门电路的允许电源电压范围是",
+        "answer": "<spanstyle=\"font-size:18.018px;\">5V±0.25V</span>",
+        "analysis": ""
+    },
+    {
+        "caption": "4000系列CMOS器件的电源电压范围为",
+        "answer": "3V~15V",
+        "analysis": ""
+    },
+    {
+        "caption": "<span style=\"font-size:14px;font-family:宋体;\">三态门输出高阻状态时，下列说法正确的是（）</span>",
+        "answer": "<spanstyle=\"font-size:14px;\">对下级电路无任何影响</span>,<spanstyle=\"font-size:14px;\"><spanstyle=\"font-family:宋体;\">相当于悬空</span><spanstyle=\"font-family:'TimesNewRoman',serif;\"></span></span>,",
+        "analysis": ""
+    },
+    {
+        "caption": "<span style=\"font-family: 宋体; font-size: 14px;\">三态门的三种状态分别为：高电平、低电平、不高不低的电压。</span>",
+        "answer": "wrong",
+        "analysis": "<b>解析：</b>三种状态应该是高电平、低电平、高电阻状态。"
+    },
+    {
+        "caption": "<span style=\"font-size: 14px;\">CMOS <span style=\"font-family: 宋体;\">电路比</span> TTL <span style=\"font-family: 宋体;\">电路功耗大。</span></span>",
+        "answer": "wrong",
+        "analysis": "<b>解析：</b>CMOS电路的特点之一就是功耗小。"
+    },
+    {
+        "caption": "<span style=\"font-size:14px;font-family:宋体;\">下面几种逻辑门中，可以用作双向开关的是</span>",
+        "answer": "<spanstyle=\"font-size:14px;font-family:'TimesNewRoman','serif';\">CMOS</span><spanstyle=\"font-size:14px;font-family:宋体;\">传输门</span>",
+        "analysis": "<b>解析：</b>  B、传输门（TG）不仅可以作为基本单元电路构成各种逻辑电路，用于数字信号的传输，而且在取样-保持电路、斩波电路、模数和数模等转换电路中传输模拟信号，因此又称为模拟开关。"
+    }
+]
