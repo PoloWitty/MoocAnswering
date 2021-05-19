@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://static.runoob.com/assets/foundation-icons/foundation-icons.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/foundation/5.5.3/css/foundation.min.css">
+    <title>Search Result</title>
+</head>
+<body>
+    <style>
+        /* .item:hover{
+            background: #eff1ef;
+            border-radius: 6px;
+        } */
+    </style>
+    <br/>
+    <ol>
+        {% for question in questions %}
+            <div class="panel callout radius">
+                <li class="item">
+                    <ul>
+                        <li>Q:{{question.caption|safe}}</li>
+                        {% if question.answer=='correct' or question.answer=='wrong' %}
+                            {% if question.answer=='correct' %}
+                                <li><i class='fi-check'></i></li>
+                            {% else %}
+                                <li><i class='fi-x'></i></li>
+                            {% endif %}
+                        {% else %}
+                            <li>A:{{question.answer|safe}}</li>
+                        {% endif %}
+
+                        {% if question.analysis!='' %}
+                            <li class='panel'>{{question.analysis|safe}}</li>
+                        {% endif %}
+                    </ul>
+                </li>
+            </div>
+            <!-- <br/> -->
+        {% endfor %}
+    </ol>
+</body>
+</html>

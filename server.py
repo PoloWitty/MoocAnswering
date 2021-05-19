@@ -8,7 +8,7 @@ import re
 pattern=re.compile(r'\W*',flags=re.UNICODE)
 
 app=Flask(
-    __name__,static_folder='./sourse/static\\',template_folder='./sourse/templates\\'
+    __name__,static_folder='./source/static\\',template_folder='./source/templates\\'
 )
 CORS(app,supports_credentials=True)
 
@@ -26,8 +26,9 @@ def search():
     query=pd.DataFrame(problems)
     # for i in range(len(query)):
     #     query.iloc[i, 0] = ''.join(query.iloc[i, 0].split())
-    print(len(query))
-    answers=pd.read_json('./sourse/scrap_results/'+course+'/'+str(unit)+'.json',encoding='utf-8')
+    # print(len(query))
+    print('接收到'+str(len(query))+'个题目')
+    answers=pd.read_json('./source/scrap_results/'+course+'/'+str(unit)+'.json',encoding='utf-8')
     res_answer=pd.merge(query, answers,how='inner',on='caption')
     res_answer=res_answer.to_json('answer.json',orient='records',force_ascii=False)
     # print('get an search request')
