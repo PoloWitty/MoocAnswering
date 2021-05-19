@@ -6,7 +6,7 @@ import pandas as pd
 import re
 
 # COURSE = "模拟电子技术基础"
-COURSES = ['电子线路设计、测试与实验（二）', "模拟电子技术基础", '数字电子技术基础', "电子线路设计、测试与实验（一）",]
+COURSES = ["电子线路设计、测试与实验（二）", '电子线路设计、测试与实验（一）', "模拟电子技术基础", '数字电子技术基础']
 COURSES_PAGES=1 #总共有展示课的页面数(下面那个课程的小卡片有多少页)
 SCRAP_TIMES=5#对每个单元爬取多少次
 pattern=re.compile(r'\W*',flags=re.UNICODE)
@@ -105,13 +105,20 @@ def run(playwright):
                     res_problem={}
 
                     #找问题的题目
-                    problem_captions=problem.find('p')
+                    # problem_captions=problem.find('p')
                     # problem_captions=problem_captions.find_all('span')
+
+                    problem_captions=problem.find('div',class_='qaDescription')
+                    problem_captions=problem_captions.find_all('p')
                     res_caption=''
-                    for content in problem_captions.contents:
-                        res_caption += str(content)
-                    res_problem['caption']=res_caption
-                    
+                    for problem_caption in problem_captions:
+                        # for content in problem_caption.contents:
+                            # res_caption += str(content)
+                        res_caption+=problem_caption.text
+                    # res_problem['caption']=res_caption
+                    res_problem['caption']=''.join(res_caption.split())#处理一下\xa0的问题
+
+
                     # res_problem_caption=problem_captions.text
                     # # res_problem_caption=''
                     # # for problem_caption in problem_captions:

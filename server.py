@@ -24,9 +24,10 @@ def search():
     unit = re.sub(pattern, '', request.json['unit'])
     problems=request.json['problems']
     query=pd.DataFrame(problems)
-    # for i in range(len(query)):
-    #     query.iloc[i, 0] = ''.join(query.iloc[i, 0].split())
-    # print(len(query))
+    for i in range(len(query)):
+        query.iloc[i, 0] = ''.join(query.iloc[i, 0].split())
+    print(query)
+    # query.to_json('query.json',orient='records',force_ascii=False)
     print('接收到'+str(len(query))+'个题目')
     answers=pd.read_json('./source/scrap_results/'+course+'/'+str(unit)+'.json',encoding='utf-8')
     res_answer=pd.merge(query, answers,how='inner',on='caption')
@@ -44,8 +45,8 @@ def show_result():
     for i in range(len(results)):
         res={}
         res['caption']=results.iloc[i,0]
-        # res['answer'] = results.iloc[i, 1].replace('spans', 'span s').replace('imgs','img s')
-        res['answer'] = results.iloc[i, 1]
+        res['answer'] = results.iloc[i, 1].replace('spans', 'span s').replace('imgs','img s')
+        # res['answer'] = results.iloc[i, 1]
         res['analysis']=results.iloc[i,2]
         res_result.append(res)
     # print(result)
