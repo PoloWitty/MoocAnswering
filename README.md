@@ -17,7 +17,7 @@ MOOC搜题程序🎉🎉🎉
 
   处理完包依赖之后, 直接`python server.py` 即可
 
-2. Download the released package, 然后点击对应的exe文件, 等待其在命令行中输出Running on http://localhost:80/即可
+2. Download the released package(此方法貌似有些问题, pyinstaller没把环境处理好), 然后点击对应的exe文件, 等待其在命令行中输出Running on http://localhost:80/ 即可
 
 然后在对应的MOOC单元测试界面按下`F12` 找到浏览器的DevTools下的Sources界面(也可能会是中文的"资源"),  点击"更多标签页", 新建一个片段, 将名字改为纯英文且中间不含空格的, 把下面的代码粘贴进去
 
