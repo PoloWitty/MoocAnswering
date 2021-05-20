@@ -1,1 +1,102 @@
-[{"caption":"时序逻辑电路在结构上","answer":"<spanstyle=\"font-size:14px;font-family:宋体;\">必须有存储电路<\/span><spanstyle=\"font-size:12px;\"><\/span>","analysis":"<b>解析：<\/b>  D、时序逻辑电路是由最基本的逻辑门电路加上反馈逻辑回路或器件组合而成，与组合电路最本质的区别在于时序电路具有记忆功能，输出不仅取决于当前值，还和电路过去的状态有关，因此必须有存储电路"},{"caption":"时序逻辑电路特点中，下列叙述正确的是","answer":"<spanstyle=\"font-size:14px;font-family:宋体;\">电路任一时刻的输出与输入信号和电路原来状态均有关<\/span>","analysis":"<b>解析：<\/b>  B、时序逻辑电路与组合电路最本质的区别在于时序电路具有记忆功能，输出不仅取决于当前值，还和电路过去的状态有关"},{"caption":"如图，CC4027芯片的电源VDD，和VSS应该分别接","answer":"<spanstyle=\"font-size:14px;font-family:'Calibri','sans-serif';\">+5V,0V<\/span>","analysis":"<b>解析：<\/b>  C、VDD是直流供电电压，为3V-18VDC。VSS为接地端口"},{"caption":"关于触发电平的设置正确的说法是","answer":"<spanclass=\"pos\"><\/span>","analysis":""},{"caption":"用双踪示波器观察3个以上波形，分两次观测,且示波器的触发源已经设置为CH2。做法是正确的：","answer":"<imgsrc=\"https:\/\/edu-image.nosdn.127.net\/3FF36E6C88A618EC60BD56D459208F54.png?imageView&amp;thumbnail=520x520&amp;quality=100\"\/>","analysis":""},{"caption":"CC4011的中单个与非门多余入端的处理方法正确的是","answer":"<spanclass=\"pos\"><\/span>,<spanstyle=\"font-size:16px;font-family:宋体;\">与<\/span><spanstyle=\"font-size:16px;\">VDD<\/span><spanstyle=\"font-size:16px;font-family:宋体;\">连接在一起<\/span>,","analysis":""},{"caption":"4LS10的中单个与非门多余入端的处理方法正确的是","answer":"<spanclass=\"pos\"><\/span>,与Vcc接在一起,","analysis":""},{"caption":"将某时钟频率为32MHz的CP变为4MHz的CP，需要个二进制计数器","answer":"3<br\/>","analysis":""},{"caption":"同步时序逻辑电路和异步时序逻辑电路的区别在于异步时序逻辑电路","answer":"<spanstyle=\"font-size:14px;font-family:宋体;\">没有统一的时钟脉冲控制<\/span>","analysis":"<b>解析：<\/b>  B、同步时序电路中全部触发器均用同一个外部时钟脉冲触发，而异步时序电路中各触发器可以采用不同的时钟信号触发"},{"caption":"时序逻辑电路特点中，下列叙述正确的是","answer":"<spanstyle=\"font-size:14px;font-family:宋体;\">电路任一时刻的输出与输入信号和电路原来状态均有关<\/span>","analysis":"<b>解析：<\/b>  D、时序逻辑电路与组合电路最本质的区别在于时序电路具有记忆功能，输出不仅取决于当前值，还和电路过去的状态有关"},{"caption":"如图，CC4027芯片的电源VDD，和VSS应该分别接","answer":"<spanstyle=\"font-size:14px;font-family:'Calibri','sans-serif';\">+5V,0V<\/span>","analysis":"<b>解析：<\/b>  A、VDD是直流供电电压，为3V-18VDC。VSS为接地端口"},{"caption":"关于CC4027说法正确的是","answer":"<spanstyle=\"font-size:18px;\"><spanstyle=\"font-family:Calibri;color:black;\">S<\/span><spanstyle=\"font-family:Calibri;color:black;vertical-align:sub;\">D<\/span><spanstyle=\"font-family:Calibri;color:black;\">=1,R<\/span><spanstyle=\"font-family:Calibri;color:black;vertical-align:sub;\">D<\/span><spanstyle=\"font-family:Calibri;color:black;\">=0<\/span><spanstyle=\"font-family:宋体;color:black;\">时<\/span><spanstyle=\"font-family:Calibri;color:black;\">Q=1<\/span><\/span>,<spanstyle=\"font-size:18px;\"><spanstyle=\"font-family:Calibri;color:black;\">S<\/span><spanstyle=\"font-family:Calibri;color:black;vertical-align:sub;\">D<\/span><spanstyle=\"font-family:Calibri;color:black;\">=0,R<\/span><spanstyle=\"font-family:Calibri;color:black;vertical-align:sub;\">D<\/span><spanstyle=\"font-family:Calibri;color:black;\">=1<\/span><spanstyle=\"font-family:宋体;color:black;\">时<\/span><spanstyle=\"font-family:Calibri;color:black;\">Q=0<\/span><\/span><spanclass=\"right\"><\/span>,<spanstyle=\"font-size:18px;\"><spanstyle=\"font-family:Calibri;color:black;\">S<\/span><spanstyle=\"font-family:Calibri;color:black;vertical-align:sub;\">D<\/span><spanstyle=\"font-family:Calibri;color:black;\">=0,R<\/span><spanstyle=\"font-family:Calibri;color:black;vertical-align:sub;\">D<\/span><spanstyle=\"font-family:Calibri;color:black;\">=0<\/span><spanstyle=\"font-family:宋体;color:black;\">时计数<\/span><\/span>,","analysis":""},{"caption":"使用CC4027实现模4可逆法器时，用示波器观察信号的时候，触发斜率设置说法正确的是","answer":"<spanstyle=\"font-size:18px;\"><spanstyle=\"font-family:宋体;color:black;\">实现减法的时候设置为上升沿触发<\/span><\/span>,<spanstyle=\"font-size:18px;\"><spanstyle=\"font-family:宋体;color:black;\">实现加法的时候设置为下降沿触发<\/span><\/span>,","analysis":""},{"caption":"同步时序逻辑电路和异步时序逻辑电路的区别在于异步时序逻辑电路","answer":"<spanstyle=\"font-size:14px;font-family:宋体;\">没有统一的时钟脉冲控制<\/span>","analysis":"<b>解析：<\/b>  A、同步时序电路中全部触发器均用同一个外部时钟脉冲触发，而异步时序电路中各触发器可以采用不同的时钟信号触发"},{"caption":"如图74ls74xinpiande电源Vcc，和GND应该分别接","answer":"+5V，0V","analysis":""},{"caption":"下图的三个信号都是同源的，通过双路示波器同时观察CP和1Q，触发源设置正确的是","answer":"<spanstyle=\"font-size:16px;font-family:宋体;\">设置为上升沿触发<\/span>,<spanstyle=\"font-size:16px;font-family:宋体;\">将<\/span><spanstyle=\"font-size:16px;\">1Q<\/span><spanstyle=\"font-size:16px;font-family:宋体;\">接入的通道设置为触发源<\/span>,","analysis":""},{"caption":"用触发器设计一个输出为1，3，8的电路，需要几个触发器","answer":"2<br\/>","analysis":""},{"caption":"关于74LS74触发器说法正确的是","answer":"<spanstyle=\"font-size:21px;font-family:Calibri;color:black;\">S<\/span><spanstyle=\"font-size:21px;font-family:Calibri;color:black;vertical-align:sub;\">D<\/span><spanstyle=\"font-size:21px;font-family:Calibri;color:black;\">=1,R<\/span><spanstyle=\"font-size:21px;font-family:Calibri;color:black;vertical-align:sub;\">D<\/span><spanstyle=\"font-size:21px;font-family:Calibri;color:black;\">=0<\/span><spanstyle=\"font-size:21px;font-family:宋体;color:black;\">时<\/span><spanstyle=\"font-size:21px;font-family:Calibri;color:black;\">Q=0<\/span>,<spanclass=\"pos\"><\/span>,<spanstyle=\"font-size:21px;font-family:Calibri;color:black;\">S<\/span><spanstyle=\"font-size:21px;font-family:Calibri;color:black;vertical-align:sub;\">D<\/span><spanstyle=\"font-size:21px;font-family:Calibri;color:black;\">=1,R<\/span><spanstyle=\"font-size:21px;font-family:Calibri;color:black;vertical-align:sub;\">D<\/span><spanstyle=\"font-size:21px;font-family:Calibri;color:black;\">=1,CP=0<\/span><spanstyle=\"font-size:21px;font-family:宋体;color:black;\">时<\/span><spanstyle=\"font-size:21px;font-family:Calibri;color:black;\">Q<\/span><spanstyle=\"font-size:21px;font-family:宋体;color:black;\">不变<\/span>,","analysis":""},{"caption":"CC4011的中单个与非门多余入端的处理方法正确的是","answer":"<spanstyle=\"font-size:16px;font-family:宋体;\">与<\/span><spanstyle=\"font-size:16px;\">VDD<\/span><spanstyle=\"font-size:16px;font-family:宋体;\">连接在一起<\/span>,<spanclass=\"pos\"><\/span>,","analysis":""},{"caption":"时序逻辑电路在结构上","answer":"<spanstyle=\"font-size:14px;font-family:宋体;\">必须有存储电路<\/span><spanstyle=\"font-size:12px;\"><\/span>","analysis":"<b>解析：<\/b>  B、时序逻辑电路是由最基本的逻辑门电路加上反馈逻辑回路或器件组合而成，与组合电路最本质的区别在于时序电路具有记忆功能，输出不仅取决于当前值，还和电路过去的状态有关，因此必须有存储电路"}]
+[
+    {
+        "caption": "时序逻辑电路在结构上",
+        "answer": "<spanstyle=\"font-size:14px;font-family:宋体;\">必须有存储电路<\/span><spanstyle=\"font-size:12px;\"><\/span>",
+        "analysis": "<b>解析：<\/b>  D、时序逻辑电路是由最基本的逻辑门电路加上反馈逻辑回路或器件组合而成，与组合电路最本质的区别在于时序电路具有记忆功能，输出不仅取决于当前值，还和电路过去的状态有关，因此必须有存储电路"
+    },
+    {
+        "caption": "时序逻辑电路特点中，下列叙述正确的是",
+        "answer": "<spanstyle=\"font-size:14px;font-family:宋体;\">电路任一时刻的输出与输入信号和电路原来状态均有关<\/span>",
+        "analysis": "<b>解析：<\/b>  B、时序逻辑电路与组合电路最本质的区别在于时序电路具有记忆功能，输出不仅取决于当前值，还和电路过去的状态有关"
+    },
+    {
+        "caption": "如图，CC4027芯片的电源VDD，和VSS应该分别接",
+        "answer": "<spanstyle=\"font-size:14px;font-family:'Calibri','sans-serif';\">+5V,0V<\/span>",
+        "analysis": "<b>解析：<\/b>  C、VDD是直流供电电压，为3V-18VDC。VSS为接地端口"
+    },
+    {
+        "caption": "关于触发电平的设置正确的说法是",
+        "answer": "<spanclass=\"pos\"><\/span>",
+        "analysis": ""
+    },
+    {
+        "caption": "用双踪示波器观察3个以上波形，分两次观测,且示波器的触发源已经设置为CH2。做法是正确的：",
+        "answer": "<imgsrc=\"https:\/\/edu-image.nosdn.127.net\/3FF36E6C88A618EC60BD56D459208F54.png?imageView&amp;thumbnail=520x520&amp;quality=100\"\/>",
+        "analysis": ""
+    },
+    {
+        "caption": "CC4011的中单个与非门多余入端的处理方法正确的是",
+        "answer": "<spanclass=\"pos\"><\/span>,<spanstyle=\"font-size:16px;font-family:宋体;\">与<\/span><spanstyle=\"font-size:16px;\">VDD<\/span><spanstyle=\"font-size:16px;font-family:宋体;\">连接在一起<\/span>,",
+        "analysis": ""
+    },
+    {
+        "caption": "4LS10的中单个与非门多余入端的处理方法正确的是",
+        "answer": "<spanclass=\"pos\"><\/span>,与Vcc接在一起,",
+        "analysis": ""
+    },
+    {
+        "caption": "将某时钟频率为32MHz的CP变为4MHz的CP，需要个二进制计数器",
+        "answer": "3<br\/>",
+        "analysis": ""
+    },
+    {
+        "caption": "同步时序逻辑电路和异步时序逻辑电路的区别在于异步时序逻辑电路",
+        "answer": "<spanstyle=\"font-size:14px;font-family:宋体;\">没有统一的时钟脉冲控制<\/span>",
+        "analysis": "<b>解析：<\/b>  B、同步时序电路中全部触发器均用同一个外部时钟脉冲触发，而异步时序电路中各触发器可以采用不同的时钟信号触发"
+    },
+    {
+        "caption": "时序逻辑电路特点中，下列叙述正确的是",
+        "answer": "<spanstyle=\"font-size:14px;font-family:宋体;\">电路任一时刻的输出与输入信号和电路原来状态均有关<\/span>",
+        "analysis": "<b>解析：<\/b>  D、时序逻辑电路与组合电路最本质的区别在于时序电路具有记忆功能，输出不仅取决于当前值，还和电路过去的状态有关"
+    },
+    {
+        "caption": "如图，CC4027芯片的电源VDD，和VSS应该分别接",
+        "answer": "<spanstyle=\"font-size:14px;font-family:'Calibri','sans-serif';\">+5V,0V<\/span>",
+        "analysis": "<b>解析：<\/b>  A、VDD是直流供电电压，为3V-18VDC。VSS为接地端口"
+    },
+    {
+        "caption": "关于CC4027说法正确的是",
+        "answer": "<spanstyle=\"font-size:18px;\"><spanstyle=\"font-family:Calibri;color:black;\">S<\/span><spanstyle=\"font-family:Calibri;color:black;vertical-align:sub;\">D<\/span><spanstyle=\"font-family:Calibri;color:black;\">=1,R<\/span><spanstyle=\"font-family:Calibri;color:black;vertical-align:sub;\">D<\/span><spanstyle=\"font-family:Calibri;color:black;\">=0<\/span><spanstyle=\"font-family:宋体;color:black;\">时<\/span><spanstyle=\"font-family:Calibri;color:black;\">Q=1<\/span><\/span>,<spanstyle=\"font-size:18px;\"><spanstyle=\"font-family:Calibri;color:black;\">S<\/span><spanstyle=\"font-family:Calibri;color:black;vertical-align:sub;\">D<\/span><spanstyle=\"font-family:Calibri;color:black;\">=0,R<\/span><spanstyle=\"font-family:Calibri;color:black;vertical-align:sub;\">D<\/span><spanstyle=\"font-family:Calibri;color:black;\">=1<\/span><spanstyle=\"font-family:宋体;color:black;\">时<\/span><spanstyle=\"font-family:Calibri;color:black;\">Q=0<\/span><\/span><spanclass=\"right\"><\/span>,<spanstyle=\"font-size:18px;\"><spanstyle=\"font-family:Calibri;color:black;\">S<\/span><spanstyle=\"font-family:Calibri;color:black;vertical-align:sub;\">D<\/span><spanstyle=\"font-family:Calibri;color:black;\">=0,R<\/span><spanstyle=\"font-family:Calibri;color:black;vertical-align:sub;\">D<\/span><spanstyle=\"font-family:Calibri;color:black;\">=0<\/span><spanstyle=\"font-family:宋体;color:black;\">时计数<\/span><\/span>,",
+        "analysis": ""
+    },
+    {
+        "caption": "使用CC4027实现模4可逆法器时，用示波器观察信号的时候，触发斜率设置说法正确的是",
+        "answer": "<spanstyle=\"font-size:18px;\"><spanstyle=\"font-family:宋体;color:black;\">实现减法的时候设置为上升沿触发<\/span><\/span>,<spanstyle=\"font-size:18px;\"><spanstyle=\"font-family:宋体;color:black;\">实现加法的时候设置为下降沿触发<\/span><\/span>,",
+        "analysis": ""
+    },
+    {
+        "caption": "同步时序逻辑电路和异步时序逻辑电路的区别在于异步时序逻辑电路",
+        "answer": "<spanstyle=\"font-size:14px;font-family:宋体;\">没有统一的时钟脉冲控制<\/span>",
+        "analysis": "<b>解析：<\/b>  A、同步时序电路中全部触发器均用同一个外部时钟脉冲触发，而异步时序电路中各触发器可以采用不同的时钟信号触发"
+    },
+    {
+        "caption": "如图74ls74xinpiande电源Vcc，和GND应该分别接",
+        "answer": "+5V，0V",
+        "analysis": ""
+    },
+    {
+        "caption": "下图的三个信号都是同源的，通过双路示波器同时观察CP和1Q，触发源设置正确的是",
+        "answer": "<spanstyle=\"font-size:16px;font-family:宋体;\">设置为上升沿触发<\/span>,<spanstyle=\"font-size:16px;font-family:宋体;\">将<\/span><spanstyle=\"font-size:16px;\">1Q<\/span><spanstyle=\"font-size:16px;font-family:宋体;\">接入的通道设置为触发源<\/span>,",
+        "analysis": ""
+    },
+    {
+        "caption": "用触发器设计一个输出为1，3，8的电路，需要几个触发器",
+        "answer": "2<br\/>",
+        "analysis": ""
+    },
+    {
+        "caption": "关于74LS74触发器说法正确的是",
+        "answer": "<spanstyle=\"font-size:21px;font-family:Calibri;color:black;\">S<\/span><spanstyle=\"font-size:21px;font-family:Calibri;color:black;vertical-align:sub;\">D<\/span><spanstyle=\"font-size:21px;font-family:Calibri;color:black;\">=1,R<\/span><spanstyle=\"font-size:21px;font-family:Calibri;color:black;vertical-align:sub;\">D<\/span><spanstyle=\"font-size:21px;font-family:Calibri;color:black;\">=0<\/span><spanstyle=\"font-size:21px;font-family:宋体;color:black;\">时<\/span><spanstyle=\"font-size:21px;font-family:Calibri;color:black;\">Q=0<\/span>,<spanclass=\"pos\"><\/span>,<spanstyle=\"font-size:21px;font-family:Calibri;color:black;\">S<\/span><spanstyle=\"font-size:21px;font-family:Calibri;color:black;vertical-align:sub;\">D<\/span><spanstyle=\"font-size:21px;font-family:Calibri;color:black;\">=1,R<\/span><spanstyle=\"font-size:21px;font-family:Calibri;color:black;vertical-align:sub;\">D<\/span><spanstyle=\"font-size:21px;font-family:Calibri;color:black;\">=1,CP=0<\/span><spanstyle=\"font-size:21px;font-family:宋体;color:black;\">时<\/span><spanstyle=\"font-size:21px;font-family:Calibri;color:black;\">Q<\/span><spanstyle=\"font-size:21px;font-family:宋体;color:black;\">不变<\/span>,",
+        "analysis": ""
+    },
+    {
+        "caption": "CC4011的中单个与非门多余入端的处理方法正确的是",
+        "answer": "<spanstyle=\"font-size:16px;font-family:宋体;\">与<\/span><spanstyle=\"font-size:16px;\">VDD<\/span><spanstyle=\"font-size:16px;font-family:宋体;\">连接在一起<\/span>,<spanclass=\"pos\"><\/span>,",
+        "analysis": ""
+    },
+    {
+        "caption": "时序逻辑电路在结构上",
+        "answer": "<spanstyle=\"font-size:14px;font-family:宋体;\">必须有存储电路<\/span><spanstyle=\"font-size:12px;\"><\/span>",
+        "analysis": "<b>解析：<\/b>  B、时序逻辑电路是由最基本的逻辑门电路加上反馈逻辑回路或器件组合而成，与组合电路最本质的区别在于时序电路具有记忆功能，输出不仅取决于当前值，还和电路过去的状态有关，因此必须有存储电路"
+    }
+]
