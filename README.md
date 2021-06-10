@@ -21,7 +21,7 @@ MOOC搜题程序🎉🎉🎉
 
   处理完包依赖之后, 直接`python server.py` 即可
 
-2. Download the released package(此方法貌似有些问题, pyinstaller没把环境处理好), 然后点击对应的exe文件, 等待其在命令行中输出Running on http://localhost:80/ 即可
+1. Download the released package, 然后点击对应的exe文件, 等待其在命令行中输出Running on http://localhost:80/ 即可
 
 还是建议把py的环境搭起来比较好
 
