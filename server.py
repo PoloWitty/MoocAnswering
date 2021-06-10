@@ -27,30 +27,29 @@ def search():
     for i in range(len(query)):
         query.iloc[i, 0] = ''.join(query.iloc[i, 0].split())
     print(query)
-    # query.to_json('query.json',orient='records',force_ascii=False)
     print('接收到'+str(len(query))+'个题目')
     answers=pd.read_json('./source/scrap_results/'+course+'/'+str(unit)+'.json',encoding='utf-8')
     res_answer=pd.merge(query, answers,how='inner',on='caption')
-    res_answer=res_answer.to_json('answer.json',orient='records',force_ascii=False)
-    # print('get an search request')
-    return jsonify(res_answer)
+    res_answer.to_csv('answer.csv',',',header=False,encoding='utf-8')
+    return 'ok'
 
 @app.route('/result',methods=['GET'])
 def show_result():
-    if not os.path.exists('answer.json'):
+    if not os.path.exists('answer.csv'):
         abort(401)
-    results=pd.read_json('answer.json',orient='records',encoding='utf-8',dtype=list)
+    results=pd.read_csv('answer.csv',encoding='utf-8')
     # results=result.values.tolist()
+    # print(results)
     res_result=[]
     for i in range(len(results)):
         res={}
-        res['caption']=results.iloc[i,0]
-        res['answer'] = results.iloc[i, 1].replace('spans', 'span s').replace('imgs','img s')
+        res['caption']=results.iloc[i,1]
+        res['answer'] = results.iloc[i, 2].replace('spans', 'span s').replace('imgs','img s')
         # res['answer'] = results.iloc[i, 1]
-        res['analysis']=results.iloc[i,2]
+        res['analysis']=results.iloc[i,3]
         res_result.append(res)
     # print(result)
-    os.remove('answer.json')
+    os.remove('answer.csv')
     return render_template('search_result.html',questions=res_result)
     
 @app.errorhandler(401)
